@@ -1,4 +1,4 @@
-# Fluent::Plugin::Tail::Asis
+# Fluent::Plugin::TailAsis
 
 TODO: Write a gem description
 
