@@ -1,6 +1,7 @@
 # Fluent::Plugin::TailAsis
 
-TODO: Write a gem description
+TailInput exteded plugin for fluentd.
+It assumes that this plug-in is used with "fluent-plugin-fail-alternative". 
 
 ## Installation
 
@@ -18,7 +19,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Sample config
+
+    <source>
+      type tail_asis
+      path /some/where/xxxx.log
+      pos_file /some/where/xxxx.pos
+      asis_key message
+      tag test.log
+    </source>
 
 ## Contributing
 
