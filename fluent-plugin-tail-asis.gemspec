@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "fluent-plugin-tail-asis"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["TERAOKA Yoshinori"]
   gem.email         = ["jyobijyoba@gmail.com"]
   gem.description   = %q{fluentd input plugin, whole line read into single key}
   gem.summary       = %q{fluentd input plugin, whole line read into single key}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/yteraoka/fluent-plugin-tail-asis"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
