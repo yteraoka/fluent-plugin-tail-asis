@@ -1,4 +1,4 @@
-# Fluent::Plugin::TailAsis
+# Fluent::Plugin::TailAsis, a plugin for [Fluentd](http://fluentd.org)
 
 TailInput exteded plugin for fluentd.
 It assumes that this plug-in is used with "fluent-plugin-fail-alternative". 
